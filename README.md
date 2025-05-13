@@ -1,55 +1,64 @@
+# 🛒 E-Commerce Customer Churn Analysis
 
-# **E-commerce Customer Churn Analysis & Prediction 🚀**
+A machine learning project focused on predicting and analyzing customer churn for an e-commerce platform. This notebook explores key factors that influence customer retention using data preprocessing, visualization, and classification model.
 
-## **Overview**
-This project analyzes and predicts **customer churn** in an e-commerce business using **machine learning**. It includes **data preprocessing, exploratory analysis, feature engineering, model training, and dashboard visualization**.
+---
 
-## **Features**
-✅ **Data Cleaning & Preprocessing**  
-✅ **Exploratory Data Analysis (EDA)**  
-✅ **Feature Engineering**  
-✅ **Machine Learning Model for Churn Prediction**  
-✅ **Interactive Dashboard for Insights**  
+## 📌 Project Overview
 
-## **Dataset**
-- Source: [Kaggle](https://www.kaggle.com/)
-- Contains **5630 customers** with **20 attributes** (e.g., `Tenure`, `PreferredPaymentMode`, `OrderCount`, `CashbackAmount`).
+Customer churn is a critical issue for e-commerce platforms, as retaining customers is often more cost-effective than acquiring new ones. This project aims to:
 
-## **Installation**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/churn-analysis.git
+* Understand patterns behind customer churn
+* Identify important churn predictors
+* Develop a predictive model to classify churned customers
 
-## **Project Workflow**
-### **1️⃣ Data Preprocessing**
-- Handle missing values
-- Encode categorical variables
-- Scale numerical features
+---
 
-### **2️⃣ Exploratory Data Analysis (EDA)**
-- Churn distribution
-- Feature correlations
-- Customer segmentation
+## 📊 Dataset
 
-### **3️⃣ Feature Engineering**
-- Binning tenure & cashback
-- Creating churn risk flags
-- One-hot encoding categorical features
+The dataset used in this project contains records of customer activity and engagement. Each row represents a customer with features such as:
 
-### **4️⃣ Model Training**
-- **Logistic Regression** (Baseline)
-- **Random Forest & XGBoost** (Optimized)
-- **Evaluation Metrics**: Accuracy, Precision, Recall, AUC-PR
+* Customer ID
+* Tenure
+* Transactional data
+* Browsing behavior
+* Support interactions
+* Churn status (target variable)
 
-### **5️⃣ Dashboard Visualization**
-- **Churn Overview** (Pie Chart)
-- **Customer Segmentation** (Bar Charts)
-- **Feature Impact on Churn** (Histograms)
-- **Churn Prediction** (Interactive Model)
+---
 
-## **Results**
-📊 **Churn Rate**: **16.8%**  
-📈 **Best Model Accuracy**: **92% (XGBoost)**  
-💰 **Preventable Revenue Loss**: **$161,016.41**  
+## ⚙️ Technologies Used
 
+* **Python**
+* **Pandas**, **NumPy** – data manipulation
+* **Matplotlib**, **Seaborn** – data visualization
+* **Scikit-learn** – model building and evaluation
+* **Jupyter Notebook** – analysis and documentation
+
+---
+
+## 📈 Workflow
+
+1. **Data Exploration & Cleaning**
+   Handle missing values, encode categorical variables, and ensure data integrity.
+
+2. **Exploratory Data Analysis (EDA)**
+   Visualizations to understand churn patterns, correlations, and customer behavior.
+
+3. **Feature Engineering**
+   Create and select relevant features to improve model performance.
+
+4. **Model Building**
+   Implement classification models -XGBoost
+
+5. **Evaluation**
+   Evaluate model using accuracy, precision, recall, and F1-score.
+
+---
+
+## 📌 Key Results
+
+* Identified top factors influencing churn, such as tenure, CashbackAmount,etc
+* Achieved high accuracy by hypperparameter tuning using sklearn.metrics
+* Provided insights that could help e-commerce companies reduce churn
 
