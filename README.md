@@ -1,8 +1,3 @@
-# E-Commerce_Customer_Churn_Analysis_Prediction
-
-Here’s a **README.md** file for your **E-commerce Customer Churn Analysis & Prediction** project:
-
----
 
 # **E-commerce Customer Churn Analysis & Prediction 🚀**
 
