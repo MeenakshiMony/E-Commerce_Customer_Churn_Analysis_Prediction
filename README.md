@@ -61,7 +61,7 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 ## 📌 Key Results
 
 ### Top 5 Churn Factors  
-![Top Churn Factors](https://via.placeholder.com/600x200?text=Key_Churn_Factors.png)
+![Top Churn Factors](https://github.com/MeenakshiMony/E_Commerce_Customer_Churn_Analysis_Prediction/blob/main/Key_Churn_Factors.png)
 
 1. Tenure  
 2. CashbackAmount  
@@ -70,7 +70,7 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 5. DaySinceLastOrder
 
 ### Customer Risk Segmentation  
-![Risk Segmentation](https://via.placeholder.com/400x200?text=Risk_Segmentation.png)
+![Risk Segmentation](https://github.com/MeenakshiMony/E_Commerce_Customer_Churn_Analysis_Prediction/blob/main/Risk_Segmentation.png)
 
 **Actionable Insights**:  
 - High-risk (Yellow): Target with personalized offers  
