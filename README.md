@@ -61,7 +61,7 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 ## 📌 Key Results
 
 ### Top 5 Churn Factors  
-![Top Churn Factors](https://via.placeholder.com/600x200?text=Key_Churn_Factors)
+![Top Churn Factors](https://via.placeholder.com/600x200?text=Key_Churn_Factors.png)
 
 1. Tenure  
 2. CashbackAmount  
@@ -70,10 +70,10 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 5. DaySinceLastOrder
 
 ### Customer Risk Segmentation  
-![Risk Segmentation](https://via.placeholder.com/400x200?text=Risk_Segmentation)
+![Risk Segmentation](https://via.placeholder.com/400x200?text=Risk_Segmentation.png)
 
 **Actionable Insights**:  
-- High-risk: Target with personalized offers  
-- Medium-risk: Improve engagement via app notifications  
-- Low-risk: Maintain satisfaction through loyalty programs  
+- High-risk (Yellow): Target with personalized offers  
+- Medium-risk (Orange): Improve engagement via app notifications  
+- Low-risk (Blue): Maintain satisfaction through loyalty programs  
 
