@@ -63,6 +63,7 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 ### Top 5 Churn Factors  
 ![Top Churn Factors](https://github.com/MeenakshiMony/E_Commerce_Customer_Churn_Analysis_Prediction/blob/main/Key_Churn_Factors.png)
 
+Top 5 Features include:
 1. Tenure  
 2. CashbackAmount  
 3. WarehouseToHome  
