@@ -18,11 +18,11 @@ Customer churn is a critical issue for e-commerce platforms, as retaining custom
 
 The dataset used in this project contains records of customer activity and engagement. Each row represents a customer with 20 features such as:
 
-* Demographic - Gender, maritalStatus, CityTier
-* Service Usage & Engagement - Tenure, PreferredLoginDevice, HourSpendOnApp, etc
-* Purchase Behaviour & Financial - PreferredPaymentMode, OrderAmountHikeFromlastYear, OrderCount, etc
-* Customer Satisfaction & Support - SatisfactionScore, Complain 
-* Churn Indicator (target variable)
+* **Demographic**: Gender, MaritalStatus, CityTier  
+* **Engagement**: Tenure, PreferredLoginDevice, HourSpendOnApp  
+* **Purchase Behavior**: PreferredPaymentMode, OrderAmountHikeFromlastYear  
+* **Satisfaction**: SatisfactionScore, Complain  
+* **Target**: Churn Indicator  
 
 ---
 
@@ -30,26 +30,50 @@ The dataset used in this project contains records of customer activity and engag
 
 * **Python**
 * **Pandas**, **NumPy** – data manipulation
-* **Matplotlib**, **Seaborn** – data visualization
+* **Matplotlib**, **Seaborn**, **Plotly** – data visualization
 * **Scikit-learn** – model building and evaluation
-* **Jupyter Notebook** – analysis and documentation
+* **Colab Notebook** – analysis and documentation
 
 ---
 
 ## 📈 Workflow
 This project follows the CRISP-DM (Cross Industry Standard Process for Data Mining) methodology to systematically address the objective of customer churn prediction.
 
-1. **Business Understanding** - Clarified the objective to proactively reduce churn through predictive insights tailored for e-commerce dynamics.
-2. **Data Understanding** - Investigated customer lifecycle data to uncover usage trends and behavioral signals indicative of churn risk.
-3. **Data Preparation** - Refined the dataset by imputing nulls, encoding categories, and scaling features to ensure modeling readiness.
-4. **Modeling** - Implemented XGBoost, classification model to predict churn factors. Tuned hyperparameters using sklearn.metrics for better accuracy.
-5. **Deployment & Actionable Insights** - Identified key churn drivers such tenure and cashback amount, and recommended data-driven retention strategies accordingly.
+1. **Business Understanding**: Identified churn reduction as key goal.  
+2. **Data Understanding**: Analyzed behavioral trends and churn signals.  
+3. **Data Preparation**: Handled nulls, encoded categories, and scaled features.  
+4. **Modeling**: Built/tuned XGBoost with hyperparameter optimization.  
+5. **Deployment & Actionable Insights**: Delivered actionable retention strategies.  
    
+---
+
+## 📊 Performance Metrics
+
+| Metric      | Score [before optimization] (%) | Score [after optimization] (%) |
+|-------------|---------------------------------|--------------------------------|
+| Accuracy    | 89                              | 92                             |
+| Precision   | 62                              | 75                             |
+| Recall      | 89                              | 82                             |
+| F1-Score    | 73                              | 79                             |
+
 ---
 
 ## 📌 Key Results
 
-* Identified top churn factors, such as tenure, CashbackAmount, WarehouseToHome, DaySinceLastOrder, Complaint
-* Achieved high accuracy of 92% by hypperparameter tuning on XGBoost using sklearn.metrics
-* Segmented customers as high, medium and low risk and recommend actionable insights that could help e-commerce companies reduce churn
+### Top 5 Churn Factors  
+![Top Churn Factors](https://via.placeholder.com/600x200?text=Key_Churn_Factors)
+
+1. Tenure  
+2. CashbackAmount  
+3. WarehouseToHome  
+4. NumberOfAddress  
+5. DaySinceLastOrder
+
+### Customer Risk Segmentation  
+![Risk Segmentation](https://via.placeholder.com/400x200?text=Risk_Segmentation)
+
+**Actionable Insights**:  
+- High-risk: Target with personalized offers  
+- Medium-risk: Improve engagement via app notifications  
+- Low-risk: Maintain satisfaction through loyalty programs  
 
