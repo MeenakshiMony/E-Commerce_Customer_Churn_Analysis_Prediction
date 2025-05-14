@@ -4,7 +4,7 @@ A machine learning project focused on predicting and analyzing customer churn fo
 
 ---
 
-## 📌 Project Overview
+## 🎯 Project Overview
 
 Customer churn is a critical issue for e-commerce platforms, as retaining customers is often more cost-effective than acquiring new ones. This project aims to:
 
@@ -14,7 +14,7 @@ Customer churn is a critical issue for e-commerce platforms, as retaining custom
 
 ---
 
-## 📊 Dataset
+## 🗂️ Dataset
 
 The dataset used in this project contains records of customer activity and engagement. Each row represents a customer with 20 features such as:
 
@@ -58,9 +58,9 @@ This project follows the CRISP-DM (Cross Industry Standard Process for Data Mini
 
 ---
 
-## 📌 Key Results
+## 📊 Key Results
 
-### Top 5 Churn Factors  
+### 🔝 Top 5 Churn Factors  
 ![Top Churn Factors](https://github.com/MeenakshiMony/E_Commerce_Customer_Churn_Analysis_Prediction/blob/main/Key_Churn_Factors.png)
 
 Top 5 Features include:
@@ -70,7 +70,7 @@ Top 5 Features include:
 4. NumberOfAddress  
 5. DaySinceLastOrder
 
-### Customer Risk Segmentation  
+### 📌 Customer Risk Segmentation  
 ![Risk Segmentation](https://github.com/MeenakshiMony/E_Commerce_Customer_Churn_Analysis_Prediction/blob/main/Risk_Segmentation.png)
 
 **Actionable Insights**:  
